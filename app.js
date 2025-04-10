@@ -35,7 +35,7 @@ app.use(requestLogger);
 app.use("/api/shopping-list", shoppingRoutes);
 
 app.listen(PORT, () => {
-  console.log(`🚀 Server listening on ${RENDER_URL}`);
+  console.log(`🚀 Server listeni  ng on ${RENDER_URL}`);
   console.log(`📚 Swagger docs available at ${RENDER_URL}/api-docs`);
 });
 
